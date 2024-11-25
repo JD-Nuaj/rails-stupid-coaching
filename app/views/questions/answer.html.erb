@@ -1,0 +1,10 @@
+<div class="container mt-5 text-center">
+  <h1 class="mb-4">Response of The Great Stupid Coach!</h1>
+
+  <div class="card shadow p-4">
+    <p><strong>Your Stupid question:</strong> <%= @question %></p>
+    <p><strong>My Stupid Response:</strong> <%= @answer %></p>
+  </div>
+
+  <%= link_to "Ask another question", ask_path, class: "btn btn-primary mt-4" %>
+</div>
